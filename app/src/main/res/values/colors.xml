@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="phone_color">#E0995BEB</color>
+    <color name="sd_color" >#b40ad1f0</color>
+    <color name="base_color">#bbf173dc</color>
+    <color name="battery_progressbar_bg">#f5a803</color>
+    <color name="battery_speed">#ed14ce14</color>
+</resources>

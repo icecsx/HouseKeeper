@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        android:id="@+id/iv_phoneparam_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/setting_info_icon_version"
+        android:background="#66cc33"/>
+
+    <TextView
+        android:id="@+id/tv_phoneparam_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备名称：Huawei"
+        android:layout_toRightOf="@id/iv_phoneparam_icon"
+        android:layout_marginLeft="18dp"
+        android:layout_alignTop="@id/iv_phoneparam_icon"
+        android:layout_marginTop="3dp"
+        android:textColor="#000"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/tv_phoneparam_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统版本：4.4.4"
+        android:layout_alignLeft="@id/tv_phoneparam_title"
+        android:layout_alignBottom="@id/iv_phoneparam_icon"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:layout_marginBottom="3dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.edu.nbl.housekeeper.main.TelmgrshowActivity">
+
+    <com.edu.nbl.housekeeper.view.ActionBarView
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <ListView
+        android:id="@+id/lv_number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#cc858585"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>

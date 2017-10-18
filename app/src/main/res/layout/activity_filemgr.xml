@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.edu.nbl.housekeeper.main.FilemgrActivity">
+
+    <com.edu.nbl.housekeeper.view.ActionBarView
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#1122cc">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已发现"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:layout_toLeftOf="@+id/tv_filesize"
+            android:layout_alignBottom="@+id/tv_filesize"
+            android:layout_alignBaseline="@+id/tv_filesize"/>
+        <TextView
+            android:id="@+id/tv_filesize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.05M"
+            android:textColor="#fff"
+            android:textSize="44sp"
+            android:layout_centerInParent="true"
+            android:textStyle="bold|italic"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/layout_filemgr_list"/>
+    </ScrollView>
+
+</LinearLayout>

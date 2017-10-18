@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.edu.nbl.housekeeper.main.SettingActivity">
+    <com.edu.nbl.housekeeper.view.ActionBarView
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+    </com.edu.nbl.housekeeper.view.ActionBarView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/iv_selector"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开机启动"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        <ToggleButton
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/tb_selector"
+            android:checked="false"/>
+    </RelativeLayout>
+
+    <!-- 画一条分割线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4c9c9"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/iv_selector"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="通知图标"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        <ToggleButton
+            android:id="@+id/tb_notify"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/tb_selector"
+            android:checked="false"/>
+    </RelativeLayout>
+
+    <!-- 画一条分割线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4c9c9"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/iv_selector"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="消息推送"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        <ToggleButton
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/tb_selector"
+            android:checked="false"/>
+    </RelativeLayout>
+
+    <!-- 画一条分割线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4c9c9"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_help"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/iv_selector"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帮助说明"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_arrows_right"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <!-- 画一条分割线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4c9c9"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/iv_selector"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="意见反馈"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_arrows_right"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <!-- 画一条分割线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4c9c9"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/iv_selector"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="好友分享"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_arrows_right"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <!-- 画一条分割线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4c9c9"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/iv_selector"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版本更新"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_arrows_right"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <!-- 画一条分割线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4c9c9"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_about"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/iv_selector"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于我们"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_arrows_right"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
